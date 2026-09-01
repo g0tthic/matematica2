@@ -1,2 +1,0 @@
-# matematica2
-awa

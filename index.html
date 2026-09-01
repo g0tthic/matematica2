@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Projeto Agrinho 2026 sobre sustentabilidade, tecnologia, acessibilidade e cidadania digital."
+    >
+
+    <title>Agrinho 2026 | Tecnologia e Sustentabilidade</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- Botão para voltar ao topo -->
+    <button
+        id="btnTopo"
+        class="btn-topo"
+        aria-label="Voltar ao topo"
+        title="Voltar ao topo"
+    >
+        ↑
+    </button>
+
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+
+        <a href="#inicio" class="logo" aria-label="Agrinho 2026 - início">
+            <span>🌱</span>
+            AGRINHO <strong>2026</strong>
+        </a>
+
+        <button
+            id="menuBtn"
+            class="menu-btn"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+        <nav id="menu" class="menu" aria-label="Navegação principal">
+            <a href="#inicio">Início</a>
+            <a href="#sustentabilidade">Sustentabilidade</a>
+            <a href="#tecnologia">Tecnologia</a>
+            <a href="#seguranca">Segurança</a>
+            <a href="#acessibilidade">Acessibilidade</a>
+            <a href="#reflexao">Reflexão</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="inicio" class="hero">
+
+            <div class="hero-conteudo">
+
+                <span class="etiqueta">PROJETO AGRINHO 2026</span>
+
+                <h1>
+                    Tecnologia para um
+                    <span>futuro sustentável</span>
+                </h1>
+
+                <p>
+                    Como a tecnologia pode ajudar a construir um mundo
+                    mais sustentável, acessível, seguro e consciente.
+                </p>
+
+                <div class="hero-botoes">
+                    <a href="#sustentabilidade" class="btn btn-principal">
+                        Explorar projeto
+                    </a>
+
+                    <button
+                        id="btnLeitura"
+                        class="btn btn-secundario"
+                        aria-label="Ouvir uma introdução sobre o projeto"
+                    >
+                        🔊 Ouvir introdução
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="hero-ilustracao" aria-hidden="true">
+                <div class="planeta">
+                    🌎
+                </div>
+                <div class="folha folha1">🌿</div>
+                <div class="folha folha2">🍃</div>
+                <div class="folha folha3">🌱</div>
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE -->
+        <section class="secao sobre">
+
+            <div class="titulo-secao">
+                <span>01 — NOSSO OBJETIVO</span>
+                <h2>Pequenas atitudes, grandes mudanças.</h2>
+            </div>
+
+            <div class="sobre-grid">
+
+                <div>
+                    <p>
+                        A sustentabilidade não depende apenas de grandes
+                        empresas ou governos. Nossas escolhas diárias também
+                        fazem parte da construção de um futuro melhor.
+                    </p>
+
+                    <p>
+                        A tecnologia pode ser uma grande aliada nesse processo,
+                        ajudando a economizar recursos, reduzir desperdícios,
+                        compartilhar conhecimento e aproximar pessoas.
+                    </p>
+                </div>
+
+                <div class="numero-card">
+                    <strong>01</strong>
+                    <span>IDEIA PRINCIPAL</span>
+                    <p>
+                        Usar a tecnologia de maneira responsável para cuidar
+                        das pessoas e do planeta.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SUSTENTABILIDADE -->
+        <section id="sustentabilidade" class="secao secao-verde">
+
+            <div class="titulo-secao centralizado">
+                <span>02 — SUSTENTABILIDADE</span>
+
+                <h2>
+                    O futuro começa pelas nossas escolhas
+                </h2>
+
+                <p>
+                    Conheça algumas formas de utilizar a tecnologia
+                    em favor do meio ambiente.
+                </p>
+            </div>
+
+            <div id="cardsSustentabilidade" class="cards">
+
+                <!-- Os cards serão criados pelo JavaScript -->
+
+            </div>
+
+        </section>
+
+
+        <!-- TECNOLOGIA -->
+        <section id="tecnologia" class="secao">
+
+            <div class="titulo-secao">
+                <span>03 — TECNOLOGIA</span>
+
+                <h2>
+                    Tecnologia pode transformar a maneira como cuidamos do planeta.
+                </h2>
+            </div>
+
+            <div class="tecnologia-grid">
+
+                <article class="tecnologia-card destaque">
+                    <div class="icone">💡</div>
+
+                    <h3>Energia inteligente</h3>
+
+                    <p>
+                        Sensores e sistemas inteligentes podem monitorar
+                        o consumo de energia e ajudar a evitar desperdícios.
+                    </p>
+                </article>
+
+                <article class="tecnologia-card">
+                    <div class="icone">💧</div>
+
+                    <h3>Uso consciente da água</h3>
+
+                    <p>
+                        Tecnologias de monitoramento podem identificar
+                        vazamentos e acompanhar o consumo de água.
+                    </p>
+                </article>
+
+                <article class="tecnologia-card">
+                    <div class="icone">🌾</div>
+
+                    <h3>Agricultura sustentável</h3>
+
+                    <p>
+                        Dados, sensores e ferramentas digitais podem
+                        auxiliar produtores a utilizar recursos de forma
+                        mais eficiente.
+                    </p>
+                </article>
+
+                <article class="tecnologia-card">
+                    <div class="icone">♻️</div>
+
+                    <h3>Redução de resíduos</h3>
+
+                    <p>
+                        Aplicativos e plataformas digitais podem incentivar
+                        a reutilização, a reciclagem e o consumo consciente.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- SEGURANÇA DIGITAL -->
+        <section id="seguranca" class="secao secao-escura">
+
+            <div class="titulo-secao">
+
+                <span>04 — SEGURANÇA DIGITAL</span>
+
+                <h2>
+                    Cuidar do planeta também é cuidar das pessoas.
+                </h2>
+
+                <p>
+                    A sustentabilidade digital envolve utilizar a tecnologia
+                    com responsabilidade e segurança.
+                </p>
+
+            </div>
+
+            <div class="seguranca-grid">
+
+                <div class="seguranca-item">
+                    <span>01</span>
+                    <div>
+                        <h3>Senhas fortes</h3>
+                        <p>
+                            Utilize senhas longas, únicas e difíceis de adivinhar.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="seguranca-item">
+                    <span>02</span>
+                    <div>
+                        <h3>Privacidade</h3>
+                        <p>
+                            Evite compartilhar informações pessoais
+                            desnecessariamente na internet.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="seguranca-item">
+                    <span>03</span>
+                    <div>
+                        <h3>Verificação</h3>
+                        <p>
+                            Antes de clicar em um link, verifique sua origem
+                            e desconfie de mensagens suspeitas.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="seguranca-item">
+                    <span>04</span>
+                    <div>
+                        <h3>Atualizações</h3>
+                        <p>
+                            Manter sistemas e aplicativos atualizados ajuda
+                            a corrigir vulnerabilidades.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACESSIBILIDADE -->
+        <section id="acessibilidade" class="secao">
+
+            <div class="acessibilidade-grid">
+
+                <div>
+
+                    <div class="titulo-secao">
+
+                        <span>05 — ACESSIBILIDADE</span>
+
+                        <h2>
+                            A tecnologia deve ser para todos.
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Um site acessível permite que mais pessoas possam
+                        encontrar informações e utilizar seus recursos,
+                        independentemente de suas limitações.
+                    </p>
+
+                    <p>
+                        Por isso, este projeto utiliza contraste adequado,
+                        navegação por teclado, textos alternativos quando
+                        necessários, estrutura semântica e ferramentas
+                        de acessibilidade.
+                    </p>
+
+                </div>
+
+                <div class="painel-acessibilidade">
+
+                    <h3>Ferramentas de acessibilidade</h3>
+
+                    <div class="controle">
+
+                        <button id="btnFonteMais">
+                            A+ Aumentar texto
+                        </button>
+
+                        <button id="btnFonteMenos">
+                            A− Diminuir texto
+                        </button>
+
+                    </div>
+
+                    <div class="controle">
+
+                        <button id="btnContraste">
+                            ◐ Alto contraste
+                        </button>
+
+                        <button id="btnModoEscuro">
+                            🌙 Modo escuro
+                        </button>
+
+                    </div>
+
+                    <button
+                        id="btnReset"
+                        class="reset"
+                    >
+                        Restaurar configurações
+                    </button>
+
+                    <p
+                        id="statusAcessibilidade"
+                        class="status"
+                        aria-live="polite"
+                    >
+                        Configurações padrão ativas.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- REFLEXÃO SOBRE IA -->
+        <section id="reflexao" class="secao reflexao">
+
+            <div class="reflexao-conteudo">
+
+                <span>06 — TECNOLOGIA E REFLEXÃO</span>
+
+                <h2>
+                    Inteligência Artificial:
+                    ferramenta ou solução?
+                </h2>
+
+                <p>
+                    A Inteligência Artificial já está presente em diversas
+                    atividades do cotidiano. Ela pode auxiliar nos estudos,
+                    no trabalho, na agricultura, na saúde e em muitas outras
+                    áreas.
+                </p>
+
+                <p>
+                    Porém, utilizar IA também exige pensamento crítico.
+                    Nem toda resposta gerada por uma ferramenta é
+                    necessariamente verdadeira ou adequada.
+                </p>
+
+                <div class="pergunta">
+                    <strong>💭 Para refletir:</strong>
+
+                    <p>
+                        Como podemos utilizar a Inteligência Artificial
+                        para melhorar nossa relação com o meio ambiente
+                        sem deixar de lado a responsabilidade humana?
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DESAFIO -->
+        <section class="secao desafio">
+
+            <div class="desafio-box">
+
+                <span>🌱 DESAFIO</span>
+
+                <h2>
+                    Qual atitude sustentável você pode começar hoje?
+                </h2>
+
+                <p>
+                    Escolha uma ação simples e transforme-a em hábito.
+                </p>
+
+                <button
+                    id="btnDesafio"
+                    class="btn btn-principal"
+                >
+                    Sortear meu desafio
+                </button>
+
+                <div
+                    id="resultadoDesafio"
+                    class="resultado"
+                    aria-live="polite"
+                >
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+
+        <div class="rodape-grid">
+
+            <div>
+
+                <div class="logo rodape-logo">
+                    🌱 AGRINHO <strong>2026</strong>
+                </div>
+
+                <p>
+                    Projeto de desenvolvimento Front-end.
+                </p>
+
+            </div>
+
+            <div>
+
+                <h3>Projeto</h3>
+
+                <a href="#sustentabilidade">
+                    Sustentabilidade
+                </a>
+
+                <a href="#tecnologia">
+                    Tecnologia
+                </a>
+
+                <a href="#seguranca">
+                    Segurança digital
+                </a>
+
+            </div>
+
+            <div>
+
+                <h3>Acessibilidade</h3>
+
+                <a href="#acessibilidade">
+                    Recursos de acessibilidade
+                </a>
+
+                <a href="#reflexao">
+                    Reflexão sobre IA
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+
+            <p>
+                © 2026 Projeto Agrinho — Desenvolvimento Front-end.
+            </p>
+
+            <p>
+                Conteúdo produzido para fins educacionais.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
